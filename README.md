@@ -16,7 +16,7 @@ For Recognition Accuracy metric, a License Plate(LP) recognition is considered t
 ## Dataset:
 In this project we use CCPD, a large and comprehensive LP datasets. To our best knowledge CCPD is largest publicly available  LP datasets with over more than 250k unique car images, and the only one provides vertices location annotations.   
 
-
+```
 |                     |  Zemris       |  Azam         | AOLPE         | CCPD          |
 | -------------       |:-------------:|:-------------:|:-------------:|:-------------:|
 |     Year            | 2002          | 2015          | 2017          | 2018          |
@@ -27,8 +27,5 @@ In this project we use CCPD, a large and comprehensive LP datasets. To our best 
 | Var in illumination	|		            |              |
 | Var in weather      |
 | Annotations         |
-
-
-```
 
 ```
