@@ -22,9 +22,17 @@ In this project we use CCPD, a large and comprehensive LP datasets. To our best 
 | -------------       |:-------------:|:-------------:|:-------------:|:-------------:|
 |     Year            | 2002          | 2015          | 2017          | 2018          |
 | Number of images    | 510           | 850           | 4200          | 250k          |
-| Var in distance     | &#9745         |
-| Var in tilt degrees | &#9745           |
-| Var in blur  	      |               |
-| Var in illumination	|		            |              |
-| Var in weather      |
-| Annotations         |
+| Var in distance     |               |               |               |               |
+| Var in tilt degrees |               |               |               |               |
+| Var in blur  	      |               |               |               |               |
+| Var in illumination	|		            |               |               |               |
+| Var in weather      |               |               |               |               |
+| Annotations         |               |               |               |               |
+
+
+## Pipeline
+The input is an image of car which passes through our trained model. This will first detect the License Plate in image of car and than predict the number present on it. The network architecture of our model as follows.
+
+<p align='center'>
+  <img src='model.png' alt='x net'/>
+</p>
