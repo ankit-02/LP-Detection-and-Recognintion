@@ -34,5 +34,5 @@ In this project we use CCPD, a large and comprehensive LP datasets. To our best 
 The input is an image of car which passes through our trained model. This will first detect the License Plate in image of car and than predict the number present on it. The network architecture of our model as follows.
 
 <p align='center'>
-  <img src='model.png' alt='x net'/>
+  <img src='./Image/model.png' alt='x net'/>
 </p>
