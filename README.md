@@ -2,10 +2,10 @@
 End-to-End License Plate Detection and Recognition
 
 ## Objective:
-The aim of this project is to detect a License Plate(LP) in image of vehicle and than recoginize the corresponding LP number simultaneously with high speed and accuracy.
+The aim of this project is to detect a License Plate(LP) in image of vehicle and then recoginize the corresponding LP number simultaneously with high speed and accuracy.
 
 ## Approach:
-We use 10 Convolutional Neural Network(CNN) layers to extract features from the input image and then use some fully connected layers for prediction of the bounding box around the License Plate. After detection of LP we use the "Recognition Module" which exploits Region of Interest(ROI) to extract features map of interest and several classifiers to predict the corresponding license plate number. The entire module is a single unified network for License Plate detection and recognition.
+We use 10 Convolutional Neural Network(CNN) layers to extract features from the input image and then use fully connected layers for prediction of the bounding box around the License Plate. After detection of LP we use the "Recognition Module" which exploits Region of Interest(ROI) to extract features map of interest and several classifiers to predict the corresponding license plate number. The entire module is a single unified network for License Plate detection and recognition.
 
 ### Detection Accuracy Metric:
 For Detection Accuracy metric the bounding box is considered to be correct if and only if its Intersection-over-Union(IoU) with the ground-truth bounding box is more than 70%(IoU>0.7)
