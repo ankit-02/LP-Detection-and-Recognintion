@@ -2,7 +2,7 @@
 End-to-End License Plate Detection and Recognition
 
 ## Objective:
-The aim of this project is to detect a License Plate(LP) in an image consisting of vehicle and then recoginize the corresponding LP number simultaneously.
+The aim of this project is to detect a License Plate(LP) in an image consisting of vehicle and then recognise the corresponding LP number simultaneously.
 
 ## Dataset:
 In this project we use CCPD, a large and comprehensive LP datasets. The dataset is available here : https://drive.google.com/file/d/1fFqCXjhk7vE9yLklpJurEwP9vdLZmrJd/view
@@ -34,5 +34,10 @@ The model’s validation accuracy,on about 20,000 images,(for IoU >= 0.65)= 80.7
 The model’s validation accuracy,on about 20,000 images,(for IoU >= 0.60)= 89.6%.
 
 #### Recognition:
-
+The model's training accuracy = 20.57%
      
+## Instructions:
+To Train models run,python3 training.py.
+
+## Acknowledgements:
+This paper: http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhenbo_Xu_Towards_End-to-End_License_ECCV_2018_paper.pdf
