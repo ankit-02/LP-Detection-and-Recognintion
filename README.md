@@ -35,7 +35,8 @@ The model’s validation accuracy,on about 20,000 images,(for IoU >= 0.60)= 89.6
 
 #### Recognition:
 The model's training accuracy = 20.57%
-     
+The model's test accuracy = 20.13%
+
 ## Instructions:
 To Train models run,python3 training.py.
 
