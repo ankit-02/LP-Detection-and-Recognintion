@@ -31,14 +31,23 @@ For Recognition Accuracy metric, a License Plate(LP) recognition is considered t
 #### Detection:
 The model’s validation accuracy,on about 20,000 images,(for IoU >= 0.70)= 65.5%.<br>
 The model’s validation accuracy,on about 20,000 images,(for IoU >= 0.65)= 80.7%.<br>
-The model’s validation accuracy,on about 20,000 images,(for IoU >= 0.60)= 89.6%.
+The model’s validation accuracy,on about 20,000 images,(for IoU >= 0.60)= 89.6%.<br>
+<p align='center'>
+  <img src='./Image/0225-88_79-142&561_424&640-413&626_166&636_152&574_398&564-0_0_2_29_10_25_26-111-55.jpg' height="300">
+</p>
+
+<p align='center'>
+  <img src='./Image/0294875478927-109_64-206&453_411&593-395&588_215&525_207&457_388&520-0_0_24_30_10_32_33-167-62.jpg' height="300" >
+</p>
+<br>
 
 #### Recognition:
 The model's training accuracy = 20.57%<br>
 The model's test accuracy = 20.13%
 
 ## Instructions:
-To Train models run,python3 training.py.
+To start training,run python3 training.py.<br>
+Link to our trained model: https://drive.google.com/open?id=1ytZTnKpe2TkN73gjKQjovz7MGTi0kmH-
 
 ## Acknowledgements:
 This paper: http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhenbo_Xu_Towards_End-to-End_License_ECCV_2018_paper.pdf
