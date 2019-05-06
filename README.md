@@ -34,7 +34,7 @@ The model’s validation accuracy,on about 20,000 images,(for IoU >= 0.65)= 80.7
 The model’s validation accuracy,on about 20,000 images,(for IoU >= 0.60)= 89.6%.
 
 #### Recognition:
-The model's training accuracy = 20.57%
+The model's training accuracy = 20.57%<br>
 The model's test accuracy = 20.13%
 
 ## Instructions:
